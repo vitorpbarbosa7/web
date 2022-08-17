@@ -1,123 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Barbosa" />
-    <meta name="description" content="Cidade de Sāo Paulo" />
-    <title>Cidade de São Paulo</title>
-    <link rel="icon" href="html5.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" type="text/css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Cidade de São Paulo</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Barbosa" />
+  <meta name="description" content="Cidade de Sāo Paulo" />
+  <title>Cidade de São Paulo</title>
+  <link rel="icon" href="html5.png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
 
-      <nav aria-label="primary-navigation" title="primary-navigation">
-        <ul>
-          <li>
-            <a href="#fotocidade"> Foto da Cidade de São Paulo <br /></a>
-          </li>
-          <li>
-            <a href="#lista_melhorias">
-              Lista de melhorias para a Cidade <br
-            /></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <h1>Cidade de São Paulo</h1>
 
-    <main>
-      <article id="fotocidade" title="fotocidade">
-        <p>A maior cidade da América Latina</p>
-        <section>
-          <h3>Principais características de São Paulo</h3>
-          <p>
-            Zombie ipsum reversus ab viral inferno, nam rick grimes malum
-            cerebro. De carne lumbering animata corpora quaeritis. Summus brains
-            sit​​, morbo vel maleficia? De apocalypsi gorger omero undead
-            survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
-            evil stalking monstra adventus resi dentevil vultus comedat
-            cerebella viventium.
+    <nav aria-label="primary-navigation" title="primary-navigation">
+      <ul>
+        <li>
+          <a href="#fotocidade"> Foto da Cidade de São Paulo <br /></a>
+        </li>
+        <li>
+          <a href="#lista_melhorias">
+            Lista de melhorias para a Cidade <br /></a>
+        </li>
+        <li>
+          <a href="#contact">
+            Contact me <br /></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="fotocidade" title="fotocidade">
+      <p>A maior cidade da América Latina</p>
+      <section>
+        <h3>Principais características de São Paulo</h3>
+        <p>
+          Zombie ipsum reversus ab viral inferno, nam rick grimes malum
+          cerebro. De carne lumbering animata corpora quaeritis. Summus brains
+          sit​​, morbo vel maleficia? De apocalypsi gorger omero undead
+          survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo
+          evil stalking monstra adventus resi dentevil vultus comedat
+          cerebella viventium.
+        </p>
+      </section>
+      <section>
+        <figure>
+          <img src="img/saopaulo.jpg" alt="Foto da cidade de São Paulo" title="Foto da Cidade de São Paulo" width="300"
+            height="180" />
+          <figcaption>São Paulo</figcaption>
+        </figure>
+
+        <table>
+          <caption> Eventos notáveis em São Paulo </caption>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th scope="col"> Datas </th>
+              <th scope="col"> Evento </th>
+              <th scope="col"> Local </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Marco Zero</th>
+              <td> <time datetime="1554-01-25">25 de Janeiro de 1954</time> </td>
+              <td> Fundação da Cidade </td>
+              <td> Pateo do Colégio </td>
+            <tr>
+            <tr>
+              <th scope="row" rowspan="3">Primeira Universidade</th>
+              <td rowspan="3"> <time datetime="1934-01-25">25 de Janeiro de 1934</time> </td>
+              <td rowspan="3"> Fundação da Universidade de São Paulo </td>
+              <td> EPUSP</td>
+              </td>
+            </tr>
+            <tr>
+              <td> FMUSP </td>
+            </tr>
+            <tr>
+              <td> FFLCH </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4"> And those are some events from my city</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </article>
+
+    <hr>
+
+    <article id="lista_melhorias">
+      <h2>Pontos de melhoria para a cidade de São Paulo</h2>
+      <ul>
+        <li>Mais ônibus, metrô e ônibus, menos carros</li>
+        <li>Mais calçadas, menos pistas</li>
+        <li>Mais bibliotecas, livrarias, escolas</li>
+      </ul>
+      <aside>
+        <details>
+          <summary>
+            Qual será o <mark>futuro</mark> de São Paulo?
+          </summary>
+          <p> Seguir como Los Angeles e Houston ou como Amsterdam e Nova York?</p>
+        </details>
+      </aside>
+    </article>
+
+    <hr>
+    <article id="contact">
+      <h2> Contact me</h2>
+      <p> I'd really like to hear from you!</p>
+      <p>
+      <form action="https://httpbin.org/get" , method="get">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <label for="firstName"> FirstName: </label>
+          <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
           </p>
-        </section>
-        <section>
-          <figure>
-            <img
-              src="img/saopaulo.jpg"
-              alt="Foto da cidade de São Paulo"
-              title="Foto da Cidade de São Paulo"
-              width="300"
-              height="180"
-            />
-            <figcaption>São Paulo</figcaption>
-          </figure>
+          <p>
+            <label for="lastName"> lastName: </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Jane" autocomplete="on" required>
+          </p>
+          <p>
+            <label for="password"> password: </label>
+            <input type="password" name="password" id="password" placeholder="password" required>
+          </p>
+          <p>
+            <label for="phone"> phone: </label>
+            <input type="tel" name="phone" id="phone" placeholder="11999999999" pattern="[0-9]{2}[0-9]{5}[0-9]{4}"
+              required>
+          </p>
+          <p>
+            <label for="decade"> Favorite decade: </label>
+            <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+          </p>
+          <p>
+            <label for="coffee"> Favorite Coffe: </label>
+            <select name="coffee" id="coffee" multiple size="3">
+              <optgroup label="Coffees">
+                <option value="starbucks">Starbucks</option>
+                <option value="octavio">Octavio</option>
+                <option value="ofner">Ofner</option>
+                <option value="other">Other</option>
+              </optgroup>
+            </select>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend> What is your favorite food</legend>
+          <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+          </p>
+          <p>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other">Other</label>
+          </p>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Do you have pets?</legend>
+          <p>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label>
+          </p>
+          <p>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label>
+          </p>
+        </fieldset>
+      </form>
+    </article>
 
-		  <table>
-			<caption> Eventos notáveis em São Paulo </caption>
-			<thead> 
-			<tr>
-				<th>&nbsp;</th>
-				<th scope="col"> Datas </th>
-				<th scope="col"> Evento </th>
-				<th scope="col"> Local </th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<th scope="row">Marco Zero</th>
-				<td> <time datetime="1554-01-25">25 de Janeiro de 1954</time> </td>
-				<td> Fundação da Cidade </td>
-				<td> Pateo do Colégio </td>
-			<tr>
-			<tr>
-				<th scope="row" rowspan = "3">Primeira Universidade</th>
-				<td rowspan = "3">  <time datetime="1934-01-25">25 de Janeiro de 1934</time> </td>
-				<td rowspan = "3"> Fundação da Universidade de São Paulo </td>
-				<td> EPUSP</td>
-				</td>
-			</tr>
-			<tr><td> FMUSP </td> </tr>
-			<tr> <td> FFLCH </td> </tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="4"> And those are some events from my city</td>
-				</tr>
-			</tfoot>
-		  </table>
-        </section>
-      </article>
 
-      <hr>
+  </main>
+  <hr />
 
-      <article id="lista_melhorias">
-        <h2>Pontos de melhoria para a cidade de São Paulo</h2>
-        <ul>
-          <li>Mais ônibus, metrô e ônibus, menos carros</li>
-          <li>Mais calçadas, menos pistas</li>
-          <li>Mais bibliotecas, livrarias, escolas</li>
-        </ul>
-		<aside>
-			<details>
-				<summary>
-					Qual será o <mark>futuro</mark> de São Paulo?
-				</summary>
-					<p> Seguir como Los Angeles e Houston ou como Amsterdam e Nova York?</p> 
-			</details>
-		</aside>
-      </article>
-    </main>
-    <hr />
 
-    <footer>
-      <p>
-        <!-- TODO: Add more places - anyone can see with simple developer tools inspect -->
-        &lt;&lt;&lt; &copy; <a href="about.html"> Sao Paulo </a>&gt;&gt;&gt;
-      </p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-  </body>
+
+  <footer>
+    <p>
+      <!-- TODO: Add more places - anyone can see with simple developer tools inspect -->
+      &lt;&lt;&lt; &copy; <a href="about.html"> Sao Paulo </a>&gt;&gt;&gt;
+    </p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+</body>
+
 </html>
