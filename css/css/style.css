@@ -1,24 +1,9 @@
-/* css rules - group of css properties */
-/* Declaration block */
-/* declaration value */
-
-/* selectors */
-
-/* property:value */
-
-h1 {
-    color:slateblue;
-    font-size: 3rem
+#title{
+    color: green;
+    background: rgb(211, 205, 205)
 }
-h2 {
-    color:darkorchid;
-    font-size: 2.7rem;
-}	
-h3 {
-    color:cyan;
-    font-size: 2.3rem;
-}	
-h4 {
-    color:greenyellow;
-    font-size: 2rem;
-}	
+
+#subheading{
+    color: blue;
+    background: rgb(233, 233, 187);
+}
