@@ -1,9 +1,36 @@
-/* Last rule and Specificity * Universal Selector */
+ /* COLOR PROPERTIES */
+ /* COLOR BACKGROUND-COLOR */
 
-p {
+/* RGBA opacity and transparency */
+
+/*  HEX VALUES */
+/*
+#FF0000 - RED
+#00FF00 - GREEN
+#0000FF - BLUE
+*/
+
+#first {
     color: blueviolet;
+    background: yellowgreen;
 }
 
-p {
-    color: yellowgreen;
+#second {
+    color: rgb(100,123,56);
+    background: rgb(200,50,255);
+}
+
+#three {
+    color: rgba(100,123,56,0.8);
+    background: rgba(0,0,0,0.05);
+}
+
+#four{
+    color: #FF0000;
+    background: #00FF00;
+}
+
+body{
+    background: rgba(100,100,200,0.2);
+
 }
