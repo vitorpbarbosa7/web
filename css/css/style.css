@@ -1,33 +1,15 @@
-.green{
-    color: green;
-}
+/* INHERITANCE */
 
-.blue{
+body{
     color: blue;
-}
-
-#title{
-    font-size: 40px;
-}
-
-.lowercase {
-    text-transform: lowercase;
-}
-
-.one {
-    color:brown
-}
-
-.two {
-    color:darkgreen
+    font-family: monospace
 }
 
 div {
-    color: maroon;
-    background: whitesmoke;
+    color: green;
+    border: 3px solid grey
 }
 
-span {
-    text-transform: uppercase;
-    font-weight: thick;
+h2 {
+    color: red;
 }
