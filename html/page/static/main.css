@@ -1,0 +1,20 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #202124;
+    color: whitesmoke;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited{
+    color: lightcyan
+}
+
+a:hover {
+    color: #202124
+}

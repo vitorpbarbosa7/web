@@ -1,0 +1,15 @@
+docutils<0.18
+flask
+sphinx
+notebook
+kedro==0.18.0
+kedro-viz
+pyarrow
+pandas
+seaborn 
+matplotlib
+numpy
+statsmodels
+plotnine
+scikit-learn
+jinjasql

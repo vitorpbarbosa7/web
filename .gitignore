@@ -3,3 +3,8 @@ venv
 *.venv/
 *.ven
 *__pycache__*
+*.dylib
+./html/page/.venv/lib/python3.9/site-packages/numpy/.dylibs/libopenblas64_.0.dylib
+./html/page/.venv/lib/python3.9/site-packages/scipy/.dylibs/libopenblas.0.dylib
+./html/page/.venv/lib/python3.9/site-packages/pyarrow/libarrow.900.dylib
+./html/page/.venv/lib/python3.9/site-packages/kedro/framework/html/_images/experiment-tracking_demo.gif

@@ -1,0 +1,2 @@
+2022-08-19 21:43:16,960 - kedro.pipeline.node - ERROR - Node `split_target_node_dev: split_target([alldata,parameters]) -> [X_dev,y_dev]` failed with error: 
+"['price'] not found in axis"

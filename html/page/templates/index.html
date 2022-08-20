@@ -1,0 +1,70 @@
+
+{% block head %}
+
+<h1> Data Science Toy Application </h1>
+
+{% endblock %}
+
+{% block body %}
+
+    <header>
+        <nav aria-label="primary-navigation" title="primary-navigation">
+            <ul>
+                <li> <a href="#pipeline_description"> Pipeline Description </a> </li>
+                <li> <a href="pipeline_visualization"> Pipeline Visualization </a> </li>
+                <li> <a href="pipeline_execution"> Pipeline Execution </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="pipeline_description" title="pipeline description">
+            <section>
+                <h3>What this pipeline does</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptas non ut quae provident molestias ab dicta deserunt vitae vel. Quidem, consequuntur molestiae? Nemo corporis cumque ipsam porro sit? Laudantium.
+                </p>    
+            </section>        
+        </article>
+
+        <hr>
+
+        <article id="pipeline_visualization">
+            <section>
+                <h3> Pipeline Visualization</h3>
+                <!-- #TODO Embed the kedro viz server here, don't how yet, and i want to visualize here and not outside in another window-->
+                <p>
+                    [
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    --
+                    ]
+                </p>
+            </section>
+        </article>
+
+        <hr>
+
+        <article id="pipeline_execution">
+            <section>
+                <h3> Pipeline Execution </h3>
+                <!-- #TODO shell script execution
+                gzus, I will really need flask for that. Thought it would be possible only with html button calling an shell script. 
+                Better try with flask first than php-->
+                
+                <button type="button"> <a href="/kedro-run/"> Run Pipeline Execution </a></button>
+            </section>
+        </article>    
+    </main>
+
+{% endblock %}

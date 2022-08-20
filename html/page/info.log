@@ -1,0 +1,67 @@
+2022-03-23 22:39:03,781 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 22:45:51,052 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 22:47:43,773 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:00:30,313 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:14:43,695 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:15:43,432 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:17:04,679 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:25:39,321 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:26:40,894 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:28:43,672 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:29:43,542 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:30:06,687 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:47:07,035 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:48:55,992 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:49:09,966 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-23 23:53:39,134 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-24 00:07:15,222 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-24 00:07:36,771 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-24 00:07:42,412 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-24 00:09:32,464 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-03-31 17:03:49,251 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 20:37:11,215 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 20:40:46,973 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 20:40:59,707 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 21:38:14,783 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 21:38:50,512 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 21:41:25,043 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 21:44:03,292 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-19 21:45:11,854 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-20 20:04:42,864 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-20 20:07:02,324 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-20 20:33:36,859 - traitlets - INFO - Installed kernelspec kedro_ames in /Users/vpb/Library/Jupyter/kernels/kedro_ames
+2022-04-21 10:31:47,328 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 10:47:37,864 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 10:47:57,995 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 10:48:50,836 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 11:26:37,420 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 11:30:42,782 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 11:32:23,443 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-04-21 11:32:24,198 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-04-21 11:47:47,797 - root - INFO - Updated path to Kedro project: /Users/vpb/Documents/01_ds/git/03_kedro/ames
+2022-04-21 11:47:47,915 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-08 19:53:18,923 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-08 19:53:26,630 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-08 19:53:26,843 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-08 19:54:12,811 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-08 19:54:13,008 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-10 21:48:59,381 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-10 21:48:59,774 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-10 21:49:53,225 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-10 21:49:53,459 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-10 21:50:52,741 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-10 21:50:53,000 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-10 22:13:34,658 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-10 22:13:34,857 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-06-10 22:15:37,861 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-06-10 22:15:38,074 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-08-19 19:54:52,304 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-08-19 19:54:53,386 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-08-19 21:18:32,953 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-08-19 21:27:03,840 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-08-19 21:27:04,916 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-08-19 21:30:23,255 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-08-19 21:30:24,312 - kedro_viz.integrations.pypi - INFO - Checking for update...
+2022-08-19 21:30:25,245 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
+2022-08-19 21:43:15,164 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-08-19 21:43:16,320 - kedro.framework.session.store - INFO - `read()` not implemented for `BaseSessionStore`. Assuming empty store.
