@@ -1,15 +1,9 @@
-/* INHERITANCE */
+/* Last rule and Specificity * Universal Selector */
 
-body{
-    color: blue;
-    font-family: monospace
+p {
+    color: blueviolet;
 }
 
-div {
-    color: green;
-    border: 3px solid grey
-}
-
-h2 {
-    color: red;
+p {
+    color: yellowgreen;
 }
