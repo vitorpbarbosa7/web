@@ -1,18 +1,20 @@
 /* font-size, width, height, pixels */
 
-.inner {
-    font-size: 30px;
-    width: 200px;
-    height: 300px;
-    background-color: rgba(100,200,50,0.5);
-}
-
 .outer {
     font-size: 40px;
     width: 300px;
     height: 400px;
     background-color: rgba(100,50,100,0.1);
 }
+
+.inner {
+    font-size: 80%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(100,200,50,0.5);
+}
+
+
 
 .footer{
     background-color: rgba(50,100,200,0.05);
