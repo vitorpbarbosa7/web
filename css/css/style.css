@@ -1,21 +1,11 @@
 /*
-calc()
-perform math operations + - * / 
-mix and match values
+font-size font-family
 */
 
-*{
-    margin: 0;
+body{
+    font-family:Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.navbar{
-    background: blue;
-    height: 100px;
-    color: white;
-    font-size: 2em;
-}
-
-.banner{
-    background: red;
-    min-height: calc(100vh - 100px);
+h1 {
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
