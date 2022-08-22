@@ -1,29 +1,35 @@
 /* Units in css */
 
-/* font-size, width, height, pixels */
-
 /*
-
-em - depends on parent container
-rem - depends on root (html tag always?)
-
-rem - RELATIVE depends on root
-1rem - 16px default browser style;
+vh - height - percent of the screen
+vw - width - percent of the screen
 */
 
-/*root*/
-html{
-    font-size: 16px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div {
-    font-size: 80px;
+:root{
+    --my-width:80vw;
+    --my-height:80vh;
 }
 
-.relative {
- font-size: 1rem;
+.header {
+    /* width: 10vw;  */
+    height: 10vh;
+    background: blue;
 }
 
-.absolute {
-    font-size: 32px; 
+.banner {
+    /* width: var(--my-width); */
+    height: var(--my-height);
+    background: red
+}
+
+.bottom {
+    /* width: 10vw; */
+    height: 10vh;
+    background: green;
 }
