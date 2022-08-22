@@ -2,12 +2,26 @@
 
 /* font-size, width, height, pixels */
 
+/*
+
+em - depends on parent container
+rem - depends on root (html tag always?)
+
+rem - RELATIVE depends on root
+1rem - 16px default browser style;
+*/
+
+/*root*/
+html{
+    font-size: 16px;
+}
+
 div {
-    font-size: 20px;
+    font-size: 80px;
 }
 
 .relative {
- font-size: 2em;
+ font-size: 1rem;
 }
 
 .absolute {
