@@ -1,11 +1,17 @@
 /*
-font-size font-family
+GOOGLE FONTS
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
-    font-family:Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Lora
 }
 
 h1 {
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Aboreto', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
