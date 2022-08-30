@@ -1,5 +1,6 @@
 /*
-CSS BOX MODEL
+BORDER-RADIUS
+Negative Margin
 */
 
 * {
@@ -9,20 +10,15 @@ CSS BOX MODEL
 h1 {
     background: yellow;
     padding: 30px;
-    margin:60px;
-    /* border-style: dashed; */
-    /* border-width: 10px; */
-    /* border-color: purple; */
-    border-bottom-style: dashed;
-    border-bottom-width: 0.3rem;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 
 p {
     background: rgb(150, 150, 255);
-    padding: 20px;
+    padding: 50px;
     margin: 100px 20px 20px 50px;
-    border: 13px solid blue
-    /* padding: 30px 60px; */
-    /* padding: 20px 80px 60px 10px; */
-
+    border: 13px solid blue;
+    border-radius: 80%;
+    margin-top:-100px;
 }
