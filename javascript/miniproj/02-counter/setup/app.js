@@ -30,4 +30,4 @@ btns.forEach(function (btn) {
         }
         textValue.textContent = count;
     })
-});
+})
