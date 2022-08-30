@@ -1,24 +1,29 @@
 /*
-BORDER-RADIUS
-Negative Margin
+outline
+offset
 */
 
-* {
-    margin:0;
+.buttons{
+    margin: 3rem;
 }
 
-h1 {
-    background: yellow;
-    padding: 30px;
-    border: 5px solid black;
-    border-radius: 20px;
+a{
+    background: greenyellow;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
 }
 
-p {
-    background: rgb(150, 150, 255);
-    padding: 50px;
-    margin: 100px 20px 20px 50px;
-    border: 13px solid blue;
-    border-radius: 80%;
-    margin-top:-100px;
+#one{
+    border: 0.2rem solid #222;
+}
+
+#two{
+    outline-width: 0.2rem;
+    outline-style: dashed;
+    outline-color: #222;
+    outline-offset: -5px;
 }
