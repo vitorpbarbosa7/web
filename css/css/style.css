@@ -1,29 +1,16 @@
 /*
-outline
-offset
+Default Display Property
+Block: Always starts a new line and takes full width
+Inline: Does not start and only take up as much as content space
+
 */
 
-.buttons{
-    margin: 3rem;
+.block{
+    background: rgba(0,0,255,0.2);
+    color: white,
 }
 
-a{
-    background: greenyellow;
-    text-decoration: none;
-    padding: 1.2rem 1.5rem;
-    color: #222;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 0 20px;
-}
-
-#one{
-    border: 0.2rem solid #222;
-}
-
-#two{
-    outline-width: 0.2rem;
-    outline-style: dashed;
-    outline-color: #222;
-    outline-offset: -5px;
+.inline{
+    background: rgba(255,0,0,0.5); 
+    color: white;
 }
