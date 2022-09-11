@@ -1,22 +1,25 @@
-// counter = document.getElementById("count-el");
-// // counter.innerText=15
+// representation model for the actual html object (DOM)
+let people = document.getElementById("count-el");
+console.log(people)
 
-// let count = 5 + 7;
-// console.log(count);
+let count = 0;
 
-// counter.innerText = count;
-
-// myAge = 29;
-// console.log(myAge);
-
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
-
-laps = [lap1, lap2, lap3]
-
-function sumLap(laps) {
-    return laps.reduce((a,b) => a + b)
+function increment(){
+    count += 1
+    console.log(count)
+    people.innerText=count
 }
 
-console.log(sumLap(laps))
+function save() {
+    console.log(count)
+}
+
+save()
+
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let user = "Messi"
+let welcomeMessage = `Welcome ${user}`
+
+welcomeEl.innerText = welcomeMessage
