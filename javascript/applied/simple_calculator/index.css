@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+
+.centerdiv{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.input{
+    border: 0;
+    width: 3em;
+    text-align: center;
+}
+
+
+.field{
+    text-decoration: underline;
+    
+}
+
+.result {
+    color: blue;
+}
