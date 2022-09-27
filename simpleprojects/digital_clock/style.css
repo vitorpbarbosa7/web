@@ -23,7 +23,6 @@ body::after{
 
 .clock {
     display: flex;
-
 }
 
 .clock div {
@@ -47,4 +46,16 @@ body::after{
     height: 30px;
     background: darkslateblue;
     letter-spacing: 1px;
+}
+
+.clock #hour {
+    font-size: 30px;
+}
+
+.clock #minutes {
+    font-size: 40px;
+}
+
+.clock #seconds {
+    font-size: 50px;
 }
