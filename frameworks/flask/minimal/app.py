@@ -17,14 +17,14 @@ def hello_world():
 
     return html
 
-@app.route("/about")
-def about():
+@app.route("/about/<username>")
+def about(username:str):
     '''
     Returns html content, which will be rendered by browser
     '''
 
     html = f'''
-    <p>About page</p>
+    <p>About page of {username}</p>
     '''
 
     return html
